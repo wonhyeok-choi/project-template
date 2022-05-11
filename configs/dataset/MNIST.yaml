@@ -1,0 +1,6 @@
+dataset:
+  _target_: src.datasets.ExampleMNIST.ExampleMNIST
+
+  data_dir: ${data_dir} # data_dir is specified in config.yaml
+  download: True
+  train: True
